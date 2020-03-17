@@ -4,9 +4,14 @@ package net.carlospracticas.Controller;
 import net.carlospracticas.model.Vacante;
 import net.carlospracticas.service.IVacantesService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @Controller
 @RequestMapping("/vacantes")
@@ -20,6 +25,8 @@ public class vacantesController {
         return "vacantes/formVacante";
     }
 
+
+    /*
     @PostMapping("/save")
     public String guardar(@RequestParam("nombre") String nombre, @RequestParam("descripcion") String descripcion, @RequestParam("estatus") String estatus, @RequestParam("fecha") String fecha,
                            @RequestParam("destacado") int destacado, @RequestParam("salario") Double salario, @RequestParam("detalles") String detalles){
@@ -32,6 +39,16 @@ public class vacantesController {
         System.out.println("Salario Ofrecido: " + salario);
         System.out.println("Detalles: " + detalles);
 
+        return "vacantes/listVacantes";
+
+    }
+
+     */
+
+    @PostMapping("/save")
+    public String guardar(Vacante vacante){
+        serviceVacante.guardar(vacante);
+        System.out.println("Vacante: " + vacante);
         return "vacantes/listVacantes";
 
     }
@@ -54,4 +71,12 @@ public class vacantesController {
 
 
     }
+
+    @InitBinder
+    public void initBinder(WebDataBinder webDataBinder){
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        webDataBinder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
+    }
+
+
 }
