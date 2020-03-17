@@ -6,10 +6,7 @@ import net.carlospracticas.service.IVacantesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/vacantes")
@@ -17,6 +14,27 @@ public class vacantesController {
 
     @Autowired
     private IVacantesService serviceVacante;
+
+    @GetMapping("/create")
+    public String crear(){
+        return "vacantes/formVacante";
+    }
+
+    @PostMapping("/save")
+    public String guardar(@RequestParam("nombre") String nombre, @RequestParam("descripcion") String descripcion, @RequestParam("estatus") String estatus, @RequestParam("fecha") String fecha,
+                           @RequestParam("destacado") int destacado, @RequestParam("salario") Double salario, @RequestParam("detalles") String detalles){
+
+        System.out.println("Nombre vacante: " + nombre);
+        System.out.println("Descripcion: " + descripcion);
+        System.out.println("Estatus: " + estatus);
+        System.out.println("Fecha Publicacion: " + fecha);
+        System.out.println("Destacado: " + destacado);
+        System.out.println("Salario Ofrecido: " + salario);
+        System.out.println("Detalles: " + detalles);
+
+        return "vacantes/listVacantes";
+
+    }
 
     @GetMapping("/delete")
     public String eliminar(@RequestParam("id") int idVacante, Model model){
