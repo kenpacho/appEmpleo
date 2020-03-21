@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 @RequestMapping("/vacantes")
@@ -25,25 +26,6 @@ public class vacantesController {
         return "vacantes/formVacante";
     }
 
-
-    /*
-    @PostMapping("/save")
-    public String guardar(@RequestParam("nombre") String nombre, @RequestParam("descripcion") String descripcion, @RequestParam("estatus") String estatus, @RequestParam("fecha") String fecha,
-                           @RequestParam("destacado") int destacado, @RequestParam("salario") Double salario, @RequestParam("detalles") String detalles){
-
-        System.out.println("Nombre vacante: " + nombre);
-        System.out.println("Descripcion: " + descripcion);
-        System.out.println("Estatus: " + estatus);
-        System.out.println("Fecha Publicacion: " + fecha);
-        System.out.println("Destacado: " + destacado);
-        System.out.println("Salario Ofrecido: " + salario);
-        System.out.println("Detalles: " + detalles);
-
-        return "vacantes/listVacantes";
-
-    }
-
-     */
 
     @PostMapping("/save")
     public String guardar(Vacante vacante){
@@ -70,6 +52,13 @@ public class vacantesController {
         return "detalle";
 
 
+    }
+
+    @GetMapping("/index")
+    public String mostrarIndex(Model model) {
+        List<Vacante> lista = serviceVacante.buscarTodas();
+        model.addAttribute("vacantes", lista);
+        return "vacantes/listVacantes";
     }
 
     @InitBinder
