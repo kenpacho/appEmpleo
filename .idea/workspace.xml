@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a631f8-979d-4c2d-a595-09d2c6e01b93" name="Default Changelist" comment="">
+    <list default="true" id="88a631f8-979d-4c2d-a595-09d2c6e01b93" name="Default Changelist" comment="m">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/CategoriasController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/CategoriasServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/ICategoriasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/jquery.tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/langs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/help/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/help/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/print/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/themes/inlite/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/themes/modern/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/tinymce/tinymce/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vacantes/formVacante.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vacantes/listVacantes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IdeaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/categoriasController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/vacantesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/vacantesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categorias/formCategoria.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categorias/formCategoria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/categorias/listCategorias.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/categorias/listCategorias.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +111,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,7 +128,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YR49eEYDKbFdS8wn8vbmhkyQu2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="flattenPackages" value="true" />
@@ -43,6 +141,7 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -52,7 +151,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,6 +168,8 @@
       <recent name="net.carlospracticas" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\caste\IdeaProjects\src\main\java\net\carlospracticas\Controller" />
+      <recent name="C:\Users\caste\IdeaProjects\src\main\resources\static\tinymce" />
       <recent name="C:\Users\caste\IdeaProjects\src\main\resources\static\images" />
       <recent name="C:\Users\caste\IdeaProjects\src\main\resources\static" />
       <recent name="C:\Users\caste\IdeaProjects\src\main\resources\static\css" />
@@ -107,7 +208,8 @@
       <workItem from="1584437453125" duration="6510000" />
       <workItem from="1584613884453" duration="865000" />
       <workItem from="1584784245254" duration="1963000" />
-      <workItem from="1584954016838" duration="2527000" />
+      <workItem from="1584954016838" duration="3141000" />
+      <workItem from="1585038753819" duration="10212000" />
     </task>
     <task id="LOCAL-00001" summary="act">
       <created>1583158391933</created>
@@ -172,21 +274,30 @@
       <option name="project" value="LOCAL" />
       <updated>1584801082190</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="act">
+      <created>1584961040215</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584961040215</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="act" />
-    <option name="LAST_COMMIT_MESSAGE" value="act" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1584452828641">
+    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1585052908536">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584452828641" />
+    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585052908536" />
     <state x="623" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583143067768">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -199,58 +310,58 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="691" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583491890522" />
-    <state x="582" y="135" key="CommitChangelistDialog2" timestamp="1584801081415">
+    <state x="582" y="135" key="CommitChangelistDialog2" timestamp="1585054931976">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="582" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1584801081415" />
-    <state width="1878" height="139" key="GridCell.Tab.0.bottom" timestamp="1584960654733">
+    <state x="582" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585054931976" />
+    <state width="1878" height="111" key="GridCell.Tab.0.bottom" timestamp="1585054683160">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654733" />
-    <state width="1878" height="139" key="GridCell.Tab.0.center" timestamp="1584960654732">
+    <state width="1878" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683160" />
+    <state width="1878" height="111" key="GridCell.Tab.0.center" timestamp="1585054683159">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654732" />
-    <state width="1878" height="139" key="GridCell.Tab.0.left" timestamp="1584960654732">
+    <state width="1878" height="111" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683159" />
+    <state width="1878" height="111" key="GridCell.Tab.0.left" timestamp="1585054683159">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654732" />
-    <state width="1878" height="139" key="GridCell.Tab.0.right" timestamp="1584960654732">
+    <state width="1878" height="111" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683159" />
+    <state width="1878" height="111" key="GridCell.Tab.0.right" timestamp="1585054683159">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654732" />
-    <state width="1878" height="139" key="GridCell.Tab.1.bottom" timestamp="1584960654733">
+    <state width="1878" height="111" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683159" />
+    <state width="1878" height="111" key="GridCell.Tab.1.bottom" timestamp="1585054683160">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654733" />
-    <state width="1878" height="139" key="GridCell.Tab.1.center" timestamp="1584960654733">
+    <state width="1878" height="111" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683160" />
+    <state width="1878" height="111" key="GridCell.Tab.1.center" timestamp="1585054683160">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654733" />
-    <state width="1878" height="139" key="GridCell.Tab.1.left" timestamp="1584960654733">
+    <state width="1878" height="111" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683160" />
+    <state width="1878" height="111" key="GridCell.Tab.1.left" timestamp="1585054683160">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654733" />
-    <state width="1878" height="139" key="GridCell.Tab.1.right" timestamp="1584960654733">
+    <state width="1878" height="111" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683160" />
+    <state width="1878" height="111" key="GridCell.Tab.1.right" timestamp="1585054683160">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="139" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584960654733" />
-    <state x="462" y="183" key="SettingsEditor" timestamp="1583494981112">
+    <state width="1878" height="111" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585054683160" />
+    <state x="462" y="183" key="SettingsEditor" timestamp="1585046690910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="462" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583494981112" />
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1584801086604">
+    <state x="462" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585046690910" />
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1584961042592">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584801086604" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1584954033622">
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584961042592" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585038754054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584954033622" />
-    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584961028395">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585038754054" />
+    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585054803340">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1584961028395" />
+    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585054803340" />
     <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1582967211722">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
