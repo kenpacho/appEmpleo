@@ -2,6 +2,7 @@ package net.carlospracticas.Controller;
 
 
 import net.carlospracticas.model.Vacante;
+import net.carlospracticas.service.ICategoriasService;
 import net.carlospracticas.service.IVacantesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
@@ -24,8 +25,12 @@ public class vacantesController {
     @Autowired
     private IVacantesService serviceVacante;
 
+    @Autowired
+    private ICategoriasService serviceCategorias;
+
     @GetMapping("/create")
-    public String crear(Vacante vacante){
+    public String crear(Vacante vacante, Model model){
+        model.addAttribute("categorias", serviceCategorias.buscarTodas());
         return "vacantes/formVacante";
     }
 
