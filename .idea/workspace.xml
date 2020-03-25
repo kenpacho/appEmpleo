@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="88a631f8-979d-4c2d-a595-09d2c6e01b93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/vacantesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/vacantesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Vacante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Vacante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/CategoriasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/CategoriasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacantes/formVacante.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacantes/formVacante.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/carlospracticas/model/Vacante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/carlospracticas/model/Vacante.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1584784245254" duration="1963000" />
       <workItem from="1584954016838" duration="3141000" />
       <workItem from="1585038753819" duration="10947000" />
-      <workItem from="1585125085806" duration="2518000" />
+      <workItem from="1585125085806" duration="4605000" />
     </task>
     <task id="LOCAL-00001" summary="act">
       <created>1583158391933</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585081362049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="m">
+      <created>1585130284324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585130284324</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,10 +231,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="691" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583491890522" />
-    <state x="582" y="135" key="CommitChangelistDialog2" timestamp="1585081361298">
+    <state x="582" y="135" key="CommitChangelistDialog2" timestamp="1585130283790">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="582" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585081361298" />
+    <state x="582" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585130283790" />
     <state width="1878" height="111" key="GridCell.Tab.0.bottom" timestamp="1585130009969">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -266,18 +271,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585046690910" />
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1585081366915">
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1585130287927">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585081366915" />
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585130287927" />
     <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585125086573">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585125086573" />
-    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585130268575">
+    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585137182971">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585130268575" />
+    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585137182971" />
     <state x="623" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1582967211722">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
