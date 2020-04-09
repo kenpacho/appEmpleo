@@ -33,7 +33,7 @@
 
            
 
-                <form th:action="@{/vacantes/save}" method="post" th:object="${vacante}">
+                <form th:action="@{/vacantes/save}" method="post" th:object="${vacante}" enctype="multipart/form-data">
                     <div th:if="${#fields.hasErrors('*')}" class='alert-danger' role='alert'>
                     Por favor corrija los siguientes errores:
                     <ul>
