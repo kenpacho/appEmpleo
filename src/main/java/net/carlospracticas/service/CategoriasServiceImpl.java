@@ -4,9 +4,11 @@ import java.util.LinkedList;
 import java.util.List;
 
 import net.carlospracticas.model.Categoria;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 @Service
+
 public class CategoriasServiceImpl implements ICategoriasService{
 
     private List<Categoria> lista = null;

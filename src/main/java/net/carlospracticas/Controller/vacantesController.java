@@ -6,6 +6,7 @@ import net.carlospracticas.service.ICategoriasService;
 import net.carlospracticas.service.IVacantesService;
 import net.carlospracticas.util.Utiles;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
@@ -32,6 +33,7 @@ public class vacantesController {
     private IVacantesService serviceVacante;
 
     @Autowired
+    //@Qualifier("categoriasServiceJpa")
     private ICategoriasService serviceCategorias;
 
     @GetMapping("/create")

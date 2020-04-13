@@ -2,56 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a631f8-979d-4c2d-a595-09d2c6e01b93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_12_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/repository/CategoriasRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/repository/PerfilesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/repository/UsuariosRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/repository/VacantesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/util/Utiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/db/CategoriasServiceJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/db/VacantesServiceJpa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IdeaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppEmpleo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/CategoriasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/CategoriasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/homeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/homeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/vacantesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/Controller/vacantesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Vacante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/model/Vacante.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/CategoriasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/carlospracticas/service/CategoriasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacantes/formVacante.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacantes/formVacante.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/carlospracticas/Controller/homeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/carlospracticas/Controller/homeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/carlospracticas/model/Vacante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/carlospracticas/model/Vacante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacantes/listVacantes.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacantes/listVacantes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +167,8 @@
       <workItem from="1585213866957" duration="7053000" />
       <workItem from="1585299365308" duration="1830000" />
       <workItem from="1585556076365" duration="2562000" />
-      <workItem from="1586337292146" duration="1227000" />
+      <workItem from="1586337292146" duration="1256000" />
+      <workItem from="1586770010744" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="act">
       <created>1583158391933</created>
@@ -303,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585137189967</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="m">
+      <created>1586446601956</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586446601957</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,10 +286,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="553" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585559094376" />
-    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1585129848650">
+    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1586772669208">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585129848650" />
+    <state x="766" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586772669208" />
     <state x="641" y="276" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585213818431">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -341,58 +306,58 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="691" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586337547053" />
-    <state x="582" y="135" key="CommitChangelistDialog2" timestamp="1585137189518">
+    <state x="582" y="135" key="CommitChangelistDialog2" timestamp="1586446601128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="582" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585137189518" />
-    <state width="1294" height="24" key="GridCell.Tab.0.bottom" timestamp="1586337521752">
+    <state x="582" y="135" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586446601128" />
+    <state width="1878" height="265" key="GridCell.Tab.0.bottom" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="24" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586337521752" />
-    <state width="1294" height="24" key="GridCell.Tab.0.center" timestamp="1586337521752">
+    <state width="1878" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.0.center" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="24" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586337521752" />
-    <state width="1294" height="24" key="GridCell.Tab.0.left" timestamp="1586337521752">
+    <state width="1878" height="265" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.0.left" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="24" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586337521752" />
-    <state width="1294" height="24" key="GridCell.Tab.0.right" timestamp="1586337521752">
+    <state width="1878" height="265" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.0.right" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1294" height="24" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586337521752" />
-    <state width="1878" height="110" key="GridCell.Tab.1.bottom" timestamp="1585223146614">
+    <state width="1878" height="265" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.1.bottom" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="110" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585223146614" />
-    <state width="1878" height="110" key="GridCell.Tab.1.center" timestamp="1585223146614">
+    <state width="1878" height="265" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.1.center" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="110" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585223146614" />
-    <state width="1878" height="110" key="GridCell.Tab.1.left" timestamp="1585223146614">
+    <state width="1878" height="265" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.1.left" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="110" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585223146614" />
-    <state width="1878" height="110" key="GridCell.Tab.1.right" timestamp="1585223146614">
+    <state width="1878" height="265" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
+    <state width="1878" height="265" key="GridCell.Tab.1.right" timestamp="1586773233777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="110" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585223146614" />
+    <state width="1878" height="265" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586773233777" />
     <state x="462" y="183" key="SettingsEditor" timestamp="1585046690910">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="462" y="183" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585046690910" />
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1585137193393">
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1586446604714">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585137193393" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1585556081576">
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586446604714" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1586770014260">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585556081576" />
-    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586446590705">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586770014260" />
+    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586773611753">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586446590705" />
+    <state x="768" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586773611753" />
     <state x="385" y="242" key="new project wizard" timestamp="1585558623628">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
