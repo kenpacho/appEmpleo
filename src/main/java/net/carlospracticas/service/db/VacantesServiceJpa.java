@@ -37,4 +37,14 @@ public class VacantesServiceJpa implements IVacantesService {
         vacantesRepo.save(vacante);
 
     }
+
+    @Override
+    public List<Vacante> buscarDestacadas() {
+        return vacantesRepo.findByDestacadoAndEstatusOrderByIdDesc(1,"Aprobada");
+    }
+
+    @Override
+    public void eliminar(Integer idVacante) {
+        vacantesRepo.deleteById(idVacante);
+    }
 }
