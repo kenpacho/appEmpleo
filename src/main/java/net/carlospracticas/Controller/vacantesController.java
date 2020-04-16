@@ -38,7 +38,6 @@ public class vacantesController {
 
     @GetMapping("/create")
     public String crear(Vacante vacante, Model model){
-        model.addAttribute("categorias", serviceCategorias.buscarTodas());
         return "vacantes/formVacante";
     }
 
@@ -65,6 +64,16 @@ public class vacantesController {
 
     }
 
+    @GetMapping("/edit/{id}")
+    public String editar(@PathVariable("id") int idVacante, Model model){
+        Vacante vacante = serviceVacante.buscarPorId(idVacante);
+
+        model.addAttribute("vacante", vacante);
+        return "vacantes/formVacante";
+    }
+
+
+
     @GetMapping("/delete/{id}")
     public String eliminar(@PathVariable("id") int idVacante, RedirectAttributes attributes){
         System.out.println("Borrando vacante con id: " +idVacante );
@@ -81,9 +90,12 @@ public class vacantesController {
         System.out.println("Vacante: " + vacante);
         model.addAttribute("vacante", vacante);
         return "detalle";
-
-
     }
+    @ModelAttribute
+    public void setGenericos(Model model){
+        model.addAttribute("categorias", serviceCategorias.buscarTodas());
+    }
+
 
     @GetMapping("/index")
     public String mostrarIndex(Model model) {
@@ -97,6 +109,8 @@ public class vacantesController {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         webDataBinder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
     }
+
+
 
 
 }
